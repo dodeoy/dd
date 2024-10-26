@@ -1,6 +1,6 @@
 {
-  "name": "ᴄʜᴧᴍᴘᴜ ꭙ ᴍᴜsɪᴄ",
-  "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
+  "name": "سورس دودي",
+  "description": "ميوزك دودي .",
   "logo": "https://telegra.ph/file/43b46c02ace4d9b83c96f.jpg",
   "keywords": [
   "python3",
@@ -13,78 +13,78 @@
   ],
     "env": {
       "API_ID": {
-        "description": "ɢᴇᴛ ᴀᴘɪ ɪᴅ ғʀᴏᴍ https://my.telegram.org",
-        "value": "",
+        "description": "لاتلعب بيها",
+        "value": "8934899",
         "required": true
       },
       "API_HASH": {
-        "description": "ɢᴇᴛ ᴀᴘɪ ʜᴀsʜ ғʀᴏᴍ https://my.telegram.org",
-        "value": "",
+        "description": "لاتلعب بيها",
+        "value": "bf3e98d2c351e4ad06946b4897374a1e",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "ɢᴇᴛ ʙᴏᴛ's ᴛᴏᴋᴇɴ ғʀᴏᴍ ʙᴏᴛғᴀᴛʜᴇʀ",
+        "description": "توكنك",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "ɢᴇᴛ ᴀ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ғʀᴏᴍ https://cloud.mongodb.com.",
-        "value": "",
+        "description": "كود مونجو لاتلعب بي.",
+        "value": "mongodb+srv://sosglaster:7GHRRN6do3O4J6Lr@sos.iluhmyx.mongodb.net/?retryWrites=true&w=majority&appName=sos",
         "required": true
       },
       "OWNER_ID": {
-        "description": "ᴛʜᴇ ᴜsᴇʀ ɪᴅ ᴏғ ᴜsᴇʀ ᴡʜᴏᴍ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ᴀᴅᴅ ᴀs ᴏᴡɴᴇʀ..",
+        "description": "ايدي المالك ..",
         "value": "6399386263",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "ᴀ ᴘʏʀᴏɢʀᴀᴍ ᴠ𝟸 sᴛʀɪɴɢ sᴇssɪᴏɴ ғʀᴏᴍ @ChampuStringBot ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. ",
+        "description": "كود بايروجرام .",
         "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴄᴄᴏᴜɴᴛ's ᴀᴘɪ ᴋᴇʏ",
+        "description": "ايبي هيروكو .",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ ɴᴀᴍᴇ.",
+        "description": "اسم التطبيق الذي في الاعلى .",
         "value": "",
         "required": false
       },
       "START_IMG_URL": {
-        "description": "ғɪʟʟ ʜᴇʀᴇ ʏᴏᴜʀ sᴛᴀʀᴛ ɪᴍᴀɢᴇ ᴜʀʟ, ɢᴇᴛ ɪᴛ ғʀᴏᴍ @TheChampuBot ᴜsɪɴɢ /tgm ᴄᴏᴍᴍᴀɴᴅ",
+        "description": "صورة ستارت ",
         "value": "",
         "required": true
       },
       "LOGGER_ID": {
-        "description": "ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ, ᴀᴅᴅ ʏᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛs!.",
-        "value": "",
+        "description": "ايدي الكروب !.",
+        "value": "-100",
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "ᴘᴜᴛ ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ ʜᴇʀᴇ.",
+        "description": "قناة الدعم الثانية.",
         "value": "",
         "required": false
       },
       "SUPPORT_CHANNEL": {
-        "description": "ᴘᴜᴛ ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ ʜᴇʀᴇ.",
+        "description": "رابط قناة الدعم.",
         "value": "",
         "required": false
       },
       "PING_IMG_URL": {
-        "description": "ғɪʟʟ ʜᴇʀᴇ ʏᴏᴜʀ ᴘɪɴɢ ɪᴍᴀɢᴇ ᴜʀʟ, ɢᴇᴛ ɪᴛ ғʀᴏᴍ @TheChampuBot ᴜsɪɴɢ /tgm ᴄᴏᴍᴍᴀɴᴅ.",
+        "description": "صورة رسالة البنك .",
         "value": "",
         "required": false
       },
       "STATS_IMG_URL": {
-        "description": "ғɪʟʟ ʜᴇʀᴇ ʏᴏᴜʀ sᴛᴀᴛs ɪᴍᴀɢᴇ ᴜʀʟ, ɢᴇᴛ ɪᴛ ғʀᴏᴍ @TheChampuBot ᴜsɪɴɢ /tgm ᴄᴏᴍᴍᴀɴᴅ.",
+        "description": "رابط صورة الستارت",
         "value": "",
         "required": false
       },
       "UPSTREAM_REPO": {
-        "description": " ᴘᴜᴛ ʏᴏᴜʀ ʀᴇᴘᴏ ʟɪɴᴋ ʜᴇʀᴇ .",
-        "value": "",
+        "description": " لاتلعب بيها .",
+        "value": "https://github.com/dodeoy/dd",
         "required": true
       }
     },
